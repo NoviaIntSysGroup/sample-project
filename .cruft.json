@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/NoviaIntSysGroup/project-templates",
+  "commit": "ec916699d168a4790ff592150dc7deb50455f6ea",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Christoffer Björkskog",
+      "author_email": "christoffer.bjorkskog@novia.fi",
+      "github_username": "melonkernel",
+      "project_name": "sample-project",
+      "project_slug": "sample-project",
+      "package_name": "sample_project",
+      "project_short_description": "A SProject created with the cookicutter template",
+      "_template": "https://github.com/NoviaIntSysGroup/project-templates"
+    }
+  },
+  "directory": null
+}
