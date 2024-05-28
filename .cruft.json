@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/NoviaIntSysGroup/project-templates",
-  "commit": "537a107f105934309a0bde3baf1b81bb4aaa50f1",
+  "commit": "afd959495fb7c2e8061c3e698388e37b480f7ea9",
   "checkout": null,
   "context": {
     "cookiecutter": {
