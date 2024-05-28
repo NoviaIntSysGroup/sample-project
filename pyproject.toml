@@ -45,6 +45,7 @@ pytest-github-actions-annotate-failures = "*"
 pytest-cov = "*"
 python-kacl = "*"
 ruff = ">=0.2.0"
+gradio = "^4.31.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -101,6 +102,10 @@ exclude_lines = [
 # Avoid changing this!
 strict = true  # See all the enabled flags `mypy --help | grep -A 10 'Strict mode'`
 disallow_any_unimported = true
+
+[[tool.mypy.overrides]]
+module = ["gradio"]
+ignore_missing_imports = true
 
 # If you need to ignore something for some specific module,
 # add overrides for them. Avoid changing the global config!
